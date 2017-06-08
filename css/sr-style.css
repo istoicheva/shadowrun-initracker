@@ -1,0 +1,171 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One|Orbitron:400,500,700,900|Share+Tech);
+/*
+ * font-family: 'Fjalla One', sans-serif;
+ * font-family: 'Orbitron', sans-serif; - TITLES
+ * font-family: 'Share Tech', sans-serif;
+ */
+
+body {
+	font-family: 'Fjalla One', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Orbitron', sans-serif;
+	color: #ffea52;
+	margin: 0;
+	margin-bottom: 5px;
+}
+
+.box {
+	background: #272525;
+	color: #fff;
+	padding: 5px;
+    margin-bottom: 5px;
+}
+ul, li {
+	margin: 0;
+	list-style: none;
+	padding: 0;
+}
+
+.box ul li {line-height: 2em;}
+
+.box ul li:nth-of-type(even) {
+    background: rgba(255,255,255,0.2);
+}
+
+.box span {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+ul.table-body.twocol li {
+    width: 49.7%;
+    position: relative;
+    display: inline-block;
+}
+
+.table-header {
+    padding: 5px 0;
+    color: #FFEA52;
+    background: #000;
+    border-top: 1px solid #ffea52;
+    border-bottom: 1px solid #ffea52;
+    text-transform: uppercase;
+}
+span.head-place, .location {
+	width: 40px;
+	text-align: center;
+}
+.location {cursor: pointer;}
+span.head-name, .ininame {
+	width: 100px;
+}
+span.head-ini, span.inivalue {
+    width: 50px;
+    text-align: center;
+}
+span.head-options {
+    min-width: 184px;
+}
+/* Editable Input Field */
+
+input.in-edit-text {
+    width: 30px;
+    text-align: center;
+    line-height: 28px;
+    border: 0;
+    background: rgba(255,255,255,0.2);
+    border-radius: 2px;
+    color: #fff;
+    font-family: 'Fjalla One', sans-serif;
+}
+input.in-edit-name {
+    width: 100%;
+    line-height: 28px;
+    border: 0;
+    background: rgba(255,255,255,0.2);
+    border-radius: 2px;
+    color: #fff;
+    padding-left: 5px;
+    font-family: 'Fjalla One', sans-serif;
+}
+.exhosted {
+    opacity: 0.3;
+}
+.nomoves {
+    opacity: 0.1;
+}
+button {
+	margin: 2px;
+    background: #2F3335;
+    line-height: 1.8em;
+    border-radius: 5px;
+    color: #AAC7CC;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+    border: 2px solid rgba(170,199,204,0.5);
+}
+button:hover {
+    background: #6D7D81;
+    color: #fff;
+    cursor: pointer;
+}
+.fa-globe {
+    color: rgb(93, 108, 111);
+}
+.fa-usb {
+    color: #00B8FF;
+}
+.fa-star {
+    color: rgb(255, 234, 82);
+}
+li.ini-line {
+    border: 1px solid rgba(39,37,37,0);
+}
+li.ini-line.active {
+	border: 1px solid rgb(255, 234, 82);
+}
+div#newentry {
+    background: #272525;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+#newentry h2 {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+/* Input Fields */
+input.newename,
+input.newini,
+input.notes {
+    background: transparent;
+    border: 0;
+    line-height: 1.8em;
+    padding: 5px;
+    border-radius: 3px;
+    font-family: 'Fjalla One', sans-serif;
+    color: #fff;
+}
+input.newename,
+input.newini {
+    background: #2f3335;
+}
+input.newini {width: 30px; text-align: center;}
+
+.hide {display: none;}
+
+.badge {
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 0.7em;
+    line-height: 1;
+    color: #aac7cc;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: rgb(0, 0, 0);
+    border-radius: 3px;
+    opacity: 0.5;
+}
